@@ -1,0 +1,3 @@
+[submodule "lib/famous-lagometer"]
+	path = lib/famous-lagometer
+	url = https://github.com/IjzerenHein/famous-lagometer
