@@ -1,7 +1,7 @@
 Package.describe({
   name: 'gadicohen:fview-lagometer',
   summary: "IjzerenHein's lagometer packaged for famous-views",
-  version: '1.0.1',
+  version: '1.0.2',
   git: 'https://github.com/gadicc/fview-lagometer.git',
   debugOnly: true
 });
@@ -10,6 +10,7 @@ Package.on_use(function(api) {
 	if (api.versionsFrom)
 	  api.versionsFrom('1.0');
 
+  api.use('tracker', 'client');
   api.use('mjn:famous@0.3.0_5', 'client', { weak: true });
   api.use('raix:famono@0.9.14', { weak: true });
   api.use('gadicohen:famous-views@0.1.27');

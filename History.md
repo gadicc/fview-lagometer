@@ -1,3 +1,7 @@
+# v1.0.2
+
+* Fix incorrect detect of mainCtx
+
 # v1.0.1
 
 * Update to latest lagometer (which allows to specify frame rate etc to use
